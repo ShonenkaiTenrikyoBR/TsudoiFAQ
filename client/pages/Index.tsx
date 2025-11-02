@@ -47,6 +47,16 @@ const faqData = [
 export default function Index() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100">
+      {/* Hero Image */}
+      <div className="w-full bg-black">
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2F451fa4d74a704a6a8d4625444abdc854%2Ff28d56f011204d5f9ca495c285b9ad0b?format=webp&width=1600"
+          alt="Tsudoc 2025 Banner"
+          className="w-full h-auto block object-cover"
+          style={{ aspectRatio: "16 / 4" }}
+        />
+      </div>
+
       {/* Header */}
       <header className="border-b border-slate-200 bg-white shadow-sm">
         <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
