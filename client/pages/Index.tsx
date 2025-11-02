@@ -62,7 +62,7 @@ export default function Index() {
         <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 lg:px-8">
           <div>
             <h1 className="text-4xl font-bold tracking-tight text-slate-900">
-              Frequently Asked Questions
+              <p>FAQ - Perguntas Frequentes</p>
             </h1>
             <p className="mt-3 text-lg text-slate-600">
               Find answers to common questions about our service
