@@ -8,19 +8,19 @@ import {
 const faqData = [
   {
     id: "1",
-    question: "What is an FAQ?",
+    question: "O que é o TSUDOI?",
     answer:
       "An FAQ (Frequently Asked Questions) is a list of common questions and their answers that help users find information quickly without having to contact support.",
   },
   {
     id: "2",
-    question: "How do I get started?",
+    question: "Como faço para me inscrever?",
     answer:
       "Getting started is easy! Simply browse through the questions below, click on any question to expand it and read the answer. If you can't find what you're looking for, feel free to reach out to our support team.",
   },
   {
     id: "3",
-    question: "Can I ask my own questions?",
+    question: "Pagamento",
     answer:
       "Absolutely! While this FAQ covers the most common inquiries, we encourage you to contact our support team if you have questions not covered here. We're always happy to help.",
   },
