@@ -80,7 +80,9 @@ export default function Index() {
 
         {/* Footer CTA */}
         <div className="mt-12 rounded-lg bg-gradient-to-r from-slate-900 to-slate-800 p-8 text-center text-white shadow-lg">
-          <h2 className="text-2xl font-bold mb-3">Couldn't find what you needed?</h2>
+          <h2 className="text-2xl font-bold mb-3">
+            Couldn't find what you needed?
+          </h2>
           <p className="mb-6 text-slate-200">
             Our support team is here to help. Reach out to us anytime.
           </p>
