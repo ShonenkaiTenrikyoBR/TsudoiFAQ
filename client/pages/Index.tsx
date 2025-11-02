@@ -26,19 +26,19 @@ const faqData = [
   },
   {
     id: "4",
-    question: "How often is the FAQ updated?",
+    question: "Transporte",
     answer:
       "We regularly update our FAQ based on customer feedback and common support inquiries. New questions and answers are added regularly to ensure we're addressing the most relevant topics.",
   },
   {
     id: "5",
-    question: "Is there a search function?",
+    question: "Informativos e Instruções",
     answer:
       "You can use your browser's built-in search function (Ctrl+F or Cmd+F) to quickly find specific keywords within the FAQ. This is helpful if you're looking for information about a particular topic.",
   },
   {
     id: "6",
-    question: "How can I provide feedback?",
+    question: "Termo de autorização",
     answer:
       "We value your feedback! If you have suggestions for improving our FAQ or think we should add more information about a specific topic, please contact our support team. Your input helps us serve you better.",
   },
@@ -65,7 +65,7 @@ export default function Index() {
               <p>FAQ - Perguntas Frequentes</p>
             </h1>
             <p className="mt-3 text-lg text-slate-600">
-              Find answers to common questions about our service
+              <p>Aqui voê encontra as principais informações sobre o evento.</p>
             </p>
           </div>
         </div>
@@ -91,13 +91,13 @@ export default function Index() {
         {/* Footer CTA */}
         <div className="mt-12 rounded-lg bg-gradient-to-r from-slate-900 to-slate-800 p-8 text-center text-white shadow-lg">
           <h2 className="text-2xl font-bold mb-3">
-            Couldn't find what you needed?
+            <p>Não encontrou a sua pergunta?</p>
           </h2>
           <p className="mb-6 text-slate-200">
-            Our support team is here to help. Reach out to us anytime.
+            <p>Entre em contato conosco pelos canais de comunicação!</p>
           </p>
           <button className="inline-block rounded-lg bg-white px-6 py-3 font-semibold text-slate-900 hover:bg-slate-100 transition-colors">
-            Contact Support
+            <p>Entrar em contato</p>
           </button>
         </div>
       </main>
