@@ -10,7 +10,7 @@ const faqData = [
     id: "1",
     question: "O que é o TSUDOI?",
     answer:
-      "An FAQ (Frequently Asked Questions) is a list of common questions and their answers that help users find information quickly without having to contact support.",
+      "O Tsudoi é o Encontro InfantoJuvenil da Igreja Tenrikyo. A 69ª edição será realizada nos dia 15, 16 e 17 de janeiro de 2026 na Sede Missionária Da Tenrikyo Do Brasil (Dendotyo) na cidade de Bauru-SP.",
   },
   {
     id: "2",
