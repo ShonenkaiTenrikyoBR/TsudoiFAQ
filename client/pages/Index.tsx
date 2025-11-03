@@ -49,6 +49,20 @@ const pdfUrl =
   "https://cdn.builder.io/o/assets%2F451fa4d74a704a6a8d4625444abdc854%2F26d902bca373472a90aab82a40f0b3f1?alt=media&token=5f61c4e4-b538-43fe-a9c8-9a5631d5e30f&apiKey=451fa4d74a704a6a8d4625444abdc854";
 
 const renderContent = (item: (typeof faqData)[0]) => {
+  if (item.id === "1") {
+    return (
+      <div className="flex flex-col gap-4">
+        <div className="flex justify-center">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F451fa4d74a704a6a8d4625444abdc854%2Fc8a73d7c560d42ba8b6ea13149be39de?format=webp&width=800"
+            alt="Tenrikyo Headquarters"
+            className="rounded-lg max-w-full h-auto"
+          />
+        </div>
+        <p>{item.answer}</p>
+      </div>
+    );
+  }
   if (item.id === "5") {
     return (
       <div className="flex flex-col gap-3">
