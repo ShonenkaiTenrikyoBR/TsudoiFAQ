@@ -114,7 +114,7 @@ export default function Index() {
                   {item.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-base text-slate-600 pt-3">
-                  {item.answer}
+                  {renderContent(item)}
                 </AccordionContent>
               </AccordionItem>
             ))}
