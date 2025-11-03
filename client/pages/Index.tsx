@@ -54,22 +54,25 @@ const renderContent = (item: typeof faqData[0]) => {
         <a
           href={pdfUrl}
           download
-          className="inline-block rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 transition-colors text-center"
+          className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 transition-colors"
         >
+          <Download size={18} />
           Instruções para as Igrejas
         </a>
         <a
           href={pdfUrl}
           download
-          className="inline-block rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 transition-colors text-center"
+          className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 transition-colors"
         >
+          <Download size={18} />
           Instruções para os pais e responsáveis
         </a>
         <a
           href={pdfUrl}
           download
-          className="inline-block rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 transition-colors text-center"
+          className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 transition-colors"
         >
+          <Download size={18} />
           Instruções para os staffs
         </a>
       </div>
