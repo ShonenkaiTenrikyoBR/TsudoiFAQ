@@ -154,7 +154,7 @@ export default function Index() {
             <p>Entre em contato conosco pelos canais de comunicação!</p>
           </p>
           <a
-            href="https://ig.me/shonenkaibrasil"
+            href="https://www.instagram.com/shonenkaibrasil/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block rounded-lg bg-white px-6 py-3 font-semibold text-slate-900 hover:bg-slate-100 transition-colors"
