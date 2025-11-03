@@ -153,9 +153,14 @@ export default function Index() {
           <p className="mb-6 text-slate-200">
             <p>Entre em contato conosco pelos canais de comunicação!</p>
           </p>
-          <button className="inline-block rounded-lg bg-white px-6 py-3 font-semibold text-slate-900 hover:bg-slate-100 transition-colors">
-            <p>Entrar em contato</p>
-          </button>
+          <a
+            href="https://ig.me/shonenkaibrasil"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-lg bg-white px-6 py-3 font-semibold text-slate-900 hover:bg-slate-100 transition-colors"
+          >
+            Entrar em contato
+          </a>
         </div>
       </main>
     </div>
