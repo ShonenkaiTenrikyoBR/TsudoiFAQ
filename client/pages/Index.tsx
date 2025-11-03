@@ -58,7 +58,7 @@ const renderContent = (item: (typeof faqData)[0]) => {
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F451fa4d74a704a6a8d4625444abdc854%2Fc8a73d7c560d42ba8b6ea13149be39de?format=webp&width=800"
               alt="Tenrikyo Headquarters"
-              className="rounded-lg max-w-full h-auto"
+              className="rounded-lg max-w-[80%] h-auto border-4 border-slate-300 shadow-lg"
             />
           </div>
           <p className="text-center text-sm text-slate-600 italic">
