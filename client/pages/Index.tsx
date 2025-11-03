@@ -50,8 +50,8 @@ export default function Index() {
       {/* Hero Image */}
       <div className="w-full bg-black">
         <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F451fa4d74a704a6a8d4625444abdc854%2Ff28d56f011204d5f9ca495c285b9ad0b?format=webp&width=1600"
-          alt="Tsudoc 2025 Banner"
+          src="https://cdn.builder.io/api/v1/image/assets%2F451fa4d74a704a6a8d4625444abdc854%2Ff6a4822cc8c84e4a8b9a131ea4f8376c?format=webp&width=1600"
+          alt="Tsudoi 2026 Banner"
           className="w-full h-auto block object-cover"
           style={{ aspectRatio: "16 / 4" }}
         />
