@@ -45,9 +45,10 @@ const faqData = [
   },
 ];
 
-const pdfUrl = "https://cdn.builder.io/o/assets%2F451fa4d74a704a6a8d4625444abdc854%2F26d902bca373472a90aab82a40f0b3f1?alt=media&token=5f61c4e4-b538-43fe-a9c8-9a5631d5e30f&apiKey=451fa4d74a704a6a8d4625444abdc854";
+const pdfUrl =
+  "https://cdn.builder.io/o/assets%2F451fa4d74a704a6a8d4625444abdc854%2F26d902bca373472a90aab82a40f0b3f1?alt=media&token=5f61c4e4-b538-43fe-a9c8-9a5631d5e30f&apiKey=451fa4d74a704a6a8d4625444abdc854";
 
-const renderContent = (item: typeof faqData[0]) => {
+const renderContent = (item: (typeof faqData)[0]) => {
   if (item.id === "5") {
     return (
       <div className="flex flex-col gap-3">
