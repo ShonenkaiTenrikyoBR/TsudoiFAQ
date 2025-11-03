@@ -53,12 +53,17 @@ const renderContent = (item: (typeof faqData)[0]) => {
     return (
       <div className="flex flex-col gap-4">
         <p>{item.answer}</p>
-        <div className="flex justify-center">
-          <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F451fa4d74a704a6a8d4625444abdc854%2Fc8a73d7c560d42ba8b6ea13149be39de?format=webp&width=800"
-            alt="Tenrikyo Headquarters"
-            className="rounded-lg max-w-full h-auto"
-          />
+        <div className="flex flex-col gap-2">
+          <div className="flex justify-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F451fa4d74a704a6a8d4625444abdc854%2Fc8a73d7c560d42ba8b6ea13149be39de?format=webp&width=800"
+              alt="Tenrikyo Headquarters"
+              className="rounded-lg max-w-full h-auto"
+            />
+          </div>
+          <p className="text-center text-sm text-slate-600 italic">
+            Foto-lembrança do 68º Tsudoi 2025 em Bauru-SP
+          </p>
         </div>
       </div>
     );
