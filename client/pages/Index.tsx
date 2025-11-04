@@ -103,7 +103,7 @@ const renderContent = (item: (typeof faqData)[0]) => {
 
 export default function Index() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100">
+    <div className="min-h-screen" style={{ backgroundColor: "#fff9cc" }}>
       {/* Hero Image */}
       <div className="w-full bg-black">
         <img
