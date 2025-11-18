@@ -37,12 +37,6 @@ const faqData = [
     answer:
       "You can use your browser's built-in search function (Ctrl+F or Cmd+F) to quickly find specific keywords within the FAQ. This is helpful if you're looking for information about a particular topic.",
   },
-  {
-    id: "6",
-    question: "Termo de autorizaç��o",
-    answer:
-      "We value your feedback! If you have suggestions for improving our FAQ or think we should add more information about a specific topic, please contact our support team. Your input helps us serve you better.",
-  },
 ];
 
 const pdfUrl =
