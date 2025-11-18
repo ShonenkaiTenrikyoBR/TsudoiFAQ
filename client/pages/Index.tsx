@@ -161,7 +161,7 @@ const renderContent = (item: (typeof faqData)[0]) => {
           className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 transition-colors"
         >
           <Download size={18} />
-          Instruções para as Igrejas
+          Informativo Geral - Tsudoi 2026
         </a>
         <a
           href={pdfUrl2}
@@ -169,7 +169,7 @@ const renderContent = (item: (typeof faqData)[0]) => {
           className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 transition-colors"
         >
           <Download size={18} />
-          Instruções para os pais e responsáveis
+          Instruções para condutores
         </a>
         <a
           href={pdfUrl3}
@@ -177,7 +177,7 @@ const renderContent = (item: (typeof faqData)[0]) => {
           className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 transition-colors"
         >
           <Download size={18} />
-          Instruções para os staffs
+          Instruções para pais e responsáveis
         </a>
       </div>
     );
