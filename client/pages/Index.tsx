@@ -39,7 +39,7 @@ const faqData = [
   },
   {
     id: "6",
-    question: "Termo de autorização",
+    question: "Termo de autorizaç��o",
     answer:
       "We value your feedback! If you have suggestions for improving our FAQ or think we should add more information about a specific topic, please contact our support team. Your input helps us serve you better.",
   },
@@ -49,6 +49,31 @@ const pdfUrl =
   "https://cdn.builder.io/o/assets%2F451fa4d74a704a6a8d4625444abdc854%2F26d902bca373472a90aab82a40f0b3f1?alt=media&token=5f61c4e4-b538-43fe-a9c8-9a5631d5e30f&apiKey=451fa4d74a704a6a8d4625444abdc854";
 
 const renderContent = (item: (typeof faqData)[0]) => {
+  if (item.id === "2") {
+    return (
+      <div className="flex flex-col gap-4">
+        <p className="whitespace-pre-line text-slate-700">{item.answer}</p>
+        <div className="flex flex-col gap-3">
+          <a
+            href="https://forms.gle/EEeUEm4reYnF3MEA8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors text-center"
+          >
+            Participantes
+          </a>
+          <a
+            href="https://forms.gle/qDSaFY8AK2XufYfQ6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-6 py-2 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition-colors text-center"
+          >
+            Apoio/Monitoria
+          </a>
+        </div>
+      </div>
+    );
+  }
   if (item.id === "1") {
     return (
       <div className="flex flex-col gap-4">
