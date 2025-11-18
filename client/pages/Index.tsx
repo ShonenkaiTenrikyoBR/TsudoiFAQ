@@ -68,6 +68,29 @@ const renderContent = (item: (typeof faqData)[0]) => {
       </div>
     );
   }
+  if (item.id === "3") {
+    return (
+      <div className="flex flex-col gap-4">
+        <p>{item.answer}</p>
+        <div className="flex justify-center">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F451fa4d74a704a6a8d4625444abdc854%2F2353ed015b8745dabe54ae12c632ebf2?format=webp&width=800"
+            alt="QR Code PIX"
+            className="rounded-lg max-w-[60%] h-auto border-4 border-slate-300 shadow-lg"
+          />
+        </div>
+        <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
+          <p className="font-semibold text-slate-900 mb-3">Dados para PIX:</p>
+          <div className="space-y-2 text-slate-700">
+            <p><span className="font-semibold">Proprietário:</span> Arthur Mamoru Nakamine</p>
+            <p><span className="font-semibold">Instituição:</span> Mercado Pago</p>
+            <p><span className="font-semibold">Chave Pix:</span> (19) 97146-1674</p>
+            <p><span className="font-semibold">Valor:</span> R$40,00</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
   if (item.id === "5") {
     return (
       <div className="flex flex-col gap-3">
