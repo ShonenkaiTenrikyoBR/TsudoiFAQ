@@ -39,8 +39,12 @@ const faqData = [
   },
 ];
 
-const pdfUrl =
-  "https://cdn.builder.io/o/assets%2F451fa4d74a704a6a8d4625444abdc854%2F26d902bca373472a90aab82a40f0b3f1?alt=media&token=5f61c4e4-b538-43fe-a9c8-9a5631d5e30f&apiKey=451fa4d74a704a6a8d4625444abdc854";
+const pdfUrl1 =
+  "https://cdn.builder.io/o/assets%2F451fa4d74a704a6a8d4625444abdc854%2F14a5be5818d64c4e845101e052a776f3?alt=media&token=faea3cb9-f83a-46d1-b8f2-0218491e3edb&apiKey=451fa4d74a704a6a8d4625444abdc854";
+const pdfUrl2 =
+  "https://cdn.builder.io/o/assets%2F451fa4d74a704a6a8d4625444abdc854%2Fd49f3719b5b749b4928c3c694725ff12?alt=media&token=53f52e23-b73f-415b-a70d-71d2eca2f38e&apiKey=451fa4d74a704a6a8d4625444abdc854";
+const pdfUrl3 =
+  "https://cdn.builder.io/o/assets%2F451fa4d74a704a6a8d4625444abdc854%2Fa409e0b4740748de86d5452b86c34d4b?alt=media&token=5198213d-0960-4e47-af4e-117885252024&apiKey=451fa4d74a704a6a8d4625444abdc854";
 
 const renderContent = (item: (typeof faqData)[0]) => {
   if (item.id === "2") {
@@ -152,7 +156,7 @@ const renderContent = (item: (typeof faqData)[0]) => {
     return (
       <div className="flex flex-col gap-3">
         <a
-          href={pdfUrl}
+          href={pdfUrl1}
           download
           className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 transition-colors"
         >
@@ -160,7 +164,7 @@ const renderContent = (item: (typeof faqData)[0]) => {
           Instruções para as Igrejas
         </a>
         <a
-          href={pdfUrl}
+          href={pdfUrl2}
           download
           className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 transition-colors"
         >
@@ -168,7 +172,7 @@ const renderContent = (item: (typeof faqData)[0]) => {
           Instruções para os pais e responsáveis
         </a>
         <a
-          href={pdfUrl}
+          href={pdfUrl3}
           download
           className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 transition-colors"
         >
