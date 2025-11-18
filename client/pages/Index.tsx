@@ -23,7 +23,7 @@ const faqData = [
     id: "3",
     question: "Pagamento",
     answer:
-      "Absolutely! While this FAQ covers the most common inquiries, we encourage you to contact our support team if you have questions not covered here. We're always happy to help.",
+      "O pagamento pode ser realizado em dinheiro na Sede Missionária Dendotyo do Brasil nos dias 13 e 14 de dezembro de 2025, 10 e 11 de janeiro de 2026 ou via pix no QR code abaixo.",
   },
   {
     id: "4",
