@@ -29,7 +29,7 @@ const faqData = [
     id: "4",
     question: "Transporte",
     answer:
-      "We regularly update our FAQ based on customer feedback and common support inquiries. New questions and answers are added regularly to ensure we're addressing the most relevant topics.",
+      "Conversar com os condutores de Igreja e Casa de Divulgação, responsáveis das Regionais ou o Shonenkai para saber quais serão os locais de saídas das caravanas para o TSUDOI 2026.\nPara falar com o Shonenkai sobre dúvidas relacionadas ao transporte, falar com Edison Santos - (11) 99151-3298",
   },
   {
     id: "5",
