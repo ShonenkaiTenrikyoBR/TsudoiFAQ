@@ -88,6 +88,11 @@ const renderContent = (item: (typeof faqData)[0]) => {
             <p><span className="font-semibold">Valor:</span>R$40,00 (participante) e R$60,00 (Apoio/Monitoria)</p>
           </div>
         </div>
+        <div className="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+          <p className="text-slate-700">
+            <span className="font-semibold">Importante:</span> enviar comprovante para shonenkai@tenrikyo.org.br com: "Inscrição PARTICIPANTE TSUDOI + nome e a igreja do participante"
+          </p>
+        </div>
       </div>
     );
   }
