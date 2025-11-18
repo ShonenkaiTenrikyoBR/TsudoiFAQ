@@ -46,12 +46,25 @@ const renderContent = (item: (typeof faqData)[0]) => {
   if (item.id === "2") {
     return (
       <div className="flex flex-col gap-4">
-        <p className="text-slate-700">Faça a sua inscrição preenchendo os formulários abaixo. Após o envio do formulário, realize o pagamento da taxa de inscrição pelos métodos de pagamento informados.</p>
+        <p className="text-slate-700">
+          Faça a sua inscrição preenchendo os formulários abaixo. Após o envio
+          do formulário, realize o pagamento da taxa de inscrição pelos métodos
+          de pagamento informados.
+        </p>
         <div className="space-y-1 text-slate-700">
           <p className="font-semibold">Requisitos:</p>
-          <p><span className="font-semibold">Participantes:</span> Idade de 6 a 14 anos.</p>
-          <p><span className="font-semibold">Apoio I ou Monitor:</span> Ter o Curso de Formação de Líderes da Associação Infantojuvenil.</p>
-          <p><span className="font-semibold">Apoio II:</span> Ter acima de 15 anos</p>
+          <p>
+            <span className="font-semibold">Participantes:</span> Idade de 6 a
+            14 anos.
+          </p>
+          <p>
+            <span className="font-semibold">Apoio I ou Monitor:</span> Ter o
+            Curso de Formação de Líderes da Associação Infantojuvenil.
+          </p>
+          <p>
+            <span className="font-semibold">Apoio II:</span> Ter acima de 15
+            anos
+          </p>
         </div>
         <div className="flex flex-col gap-3">
           <a
@@ -109,15 +122,27 @@ const renderContent = (item: (typeof faqData)[0]) => {
         <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
           <p className="font-semibold text-slate-900 mb-3">Dados para PIX:</p>
           <div className="space-y-2 text-slate-700">
-            <p><span className="font-semibold">Proprietário:</span> Arthur Mamoru Nakamine</p>
-            <p><span className="font-semibold">Instituição:</span> Mercado Pago</p>
-            <p><span className="font-semibold">Chave Pix:</span> (19) 97146-1674</p>
-            <p><span className="font-semibold">Valor:</span>R$40,00 (participante) e R$60,00 (Apoio/Monitoria)</p>
+            <p>
+              <span className="font-semibold">Proprietário:</span> Arthur Mamoru
+              Nakamine
+            </p>
+            <p>
+              <span className="font-semibold">Instituição:</span> Mercado Pago
+            </p>
+            <p>
+              <span className="font-semibold">Chave Pix:</span> (19) 97146-1674
+            </p>
+            <p>
+              <span className="font-semibold">Valor:</span>R$40,00
+              (participante) e R$60,00 (Apoio/Monitoria)
+            </p>
           </div>
         </div>
         <div className="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
           <p className="text-slate-700">
-            <span className="font-semibold">Importante:</span> enviar comprovante para shonenkai@tenrikyo.org.br com: "Inscrição PARTICIPANTE TSUDOI + nome e a igreja do participante"
+            <span className="font-semibold">Importante:</span> enviar
+            comprovante para shonenkai@tenrikyo.org.br com: "Inscrição
+            PARTICIPANTE TSUDOI + nome e a igreja do participante"
           </p>
         </div>
       </div>
