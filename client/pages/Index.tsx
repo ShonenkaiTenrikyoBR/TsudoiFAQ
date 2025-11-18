@@ -202,7 +202,9 @@ export default function Index() {
               <p>FAQ - Perguntas Frequentes</p>
             </h1>
             <p className="mt-3 text-lg text-slate-600">
-              <p>Aqui você encontra as principais informações sobre o evento.</p>
+              <p>
+                Aqui você encontra as principais informações sobre o evento.
+              </p>
             </p>
           </div>
         </div>
