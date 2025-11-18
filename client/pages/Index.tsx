@@ -17,7 +17,7 @@ const faqData = [
     id: "2",
     question: "Como faço para me inscrever?",
     answer:
-      "Getting started is easy! Simply browse through the questions below, click on any question to expand it and read the answer. If you can't find what you're looking for, feel free to reach out to our support team.",
+      "Faça a sua inscrição preenchendo os formulários abaixo. Após o envio do formulário, realize o pagamento da taxa de inscrição pelos métodos de pagamento informados.\n\nRequisitos:\nPARTICIPANTES: Idade de 6 a 14 anos.\nAPOIO I OU MONITOR: Ter o Curso de Formação de Líderes da Associação Infantojuvenil.\nAPOIO II: Ter acima de 15 anos",
   },
   {
     id: "3",
