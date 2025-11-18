@@ -58,17 +58,19 @@ const renderContent = (item: (typeof faqData)[0]) => {
             href="https://forms.gle/EEeUEm4reYnF3MEA8"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors text-center"
+            className="inline-flex items-center justify-center gap-2 px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
           >
-            Participantes
+            <FileText size={20} />
+            Formulário Participantes
           </a>
           <a
             href="https://forms.gle/qDSaFY8AK2XufYfQ6"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-6 py-2 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition-colors text-center"
+            className="inline-flex items-center justify-center gap-2 px-6 py-2 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition-colors"
           >
-            Apoio/Monitoria
+            <FileText size={20} />
+            Formulário Apoio/Monitoria
           </a>
         </div>
       </div>
