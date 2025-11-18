@@ -85,7 +85,7 @@ const renderContent = (item: (typeof faqData)[0]) => {
             <p><span className="font-semibold">Proprietário:</span> Arthur Mamoru Nakamine</p>
             <p><span className="font-semibold">Instituição:</span> Mercado Pago</p>
             <p><span className="font-semibold">Chave Pix:</span> (19) 97146-1674</p>
-            <p><span className="font-semibold">Valor:</span> R$40,00</p>
+            <p><span className="font-semibold">Valor:</span>R$40,00 (participante) e R$60,00 (Apoio/Monitoria)</p>
           </div>
         </div>
       </div>
