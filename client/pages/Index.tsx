@@ -76,7 +76,7 @@ const renderContent = (item: (typeof faqData)[0]) => {
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F451fa4d74a704a6a8d4625444abdc854%2F2353ed015b8745dabe54ae12c632ebf2?format=webp&width=800"
             alt="QR Code PIX"
-            className="rounded-lg max-w-[30%] h-auto border-4 border-slate-300 shadow-lg"
+            className="rounded-lg max-w-[30%] h-auto"
           />
         </div>
         <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
