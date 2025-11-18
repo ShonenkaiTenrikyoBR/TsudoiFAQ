@@ -202,7 +202,7 @@ export default function Index() {
               <p>FAQ - Perguntas Frequentes</p>
             </h1>
             <p className="mt-3 text-lg text-slate-600">
-              <p>Aqui voê encontra as principais informações sobre o evento.</p>
+              <p>Aqui você encontra as principais informações sobre o evento.</p>
             </p>
           </div>
         </div>
@@ -231,7 +231,7 @@ export default function Index() {
             <p>Não encontrou a sua pergunta?</p>
           </h2>
           <p className="mb-6 text-slate-200">
-            <p>Entre em contato conosco pelos canais de comunicação!</p>
+            <p>Entre em contato conosco pelos nossos canais de comunicação!</p>
           </p>
           <a
             href="https://www.instagram.com/shonenkaibrasil/"
