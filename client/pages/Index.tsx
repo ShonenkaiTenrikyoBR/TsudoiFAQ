@@ -4,7 +4,7 @@ import {
   AccordionTrigger,
   AccordionContent,
 } from "@/components/ui/accordion";
-import { Download } from "lucide-react";
+import { Download, FileText } from "lucide-react";
 
 const faqData = [
   {
