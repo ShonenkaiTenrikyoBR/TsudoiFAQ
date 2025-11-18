@@ -53,7 +53,7 @@ const renderContent = (item: (typeof faqData)[0]) => {
     return (
       <div className="flex flex-col gap-4">
         <p className="text-slate-700">Faça a sua inscrição preenchendo os formulários abaixo. Após o envio do formulário, realize o pagamento da taxa de inscrição pelos métodos de pagamento informados.</p>
-        <div className="space-y-2 text-slate-700">
+        <div className="space-y-1 text-slate-700">
           <p className="font-semibold">Requisitos:</p>
           <p><span className="font-semibold">Participantes:</span> Idade de 6 a 14 anos.</p>
           <p><span className="font-semibold">Apoio I ou Monitor:</span> Ter o Curso de Formação de Líderes da Associação Infantojuvenil.</p>
