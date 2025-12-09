@@ -159,7 +159,8 @@ const renderContent = (item: (typeof faqData)[0]) => {
       <div className="flex flex-col gap-4">
         <p className="text-slate-700">{item.answer}</p>
         <p className="text-slate-700">
-          Para falar com o Shonenkai sobre dúvidas relacionadas ao transporte, falar com Edison Santos - (11) 99151-3298
+          Para falar com o Shonenkai sobre dúvidas relacionadas ao transporte,
+          falar com Edison Santos - (11) 99151-3298
         </p>
         <a
           href={authorizationUrl}
