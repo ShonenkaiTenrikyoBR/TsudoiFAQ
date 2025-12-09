@@ -164,7 +164,10 @@ const renderContent = (item: (typeof faqData)[0]) => {
         </p>
         <div className="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
           <p className="text-slate-700">
-            <span className="font-semibold">Importante:</span> Para menores de 16 anos, providenciar a AUTORIZAÇÃO DE VIAGEM (Resolução CNJ Nº 295/2019 - modelo abaixo), com firma reconhecida e devendo ser entregue ao responsável da caravana
+            <span className="font-semibold">Importante:</span> Para menores de
+            16 anos, providenciar a AUTORIZAÇÃO DE VIAGEM (Resolução CNJ Nº
+            295/2019 - modelo abaixo), com firma reconhecida e devendo ser
+            entregue ao responsável da caravana
           </p>
         </div>
         <a
