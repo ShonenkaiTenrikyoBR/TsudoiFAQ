@@ -45,6 +45,8 @@ const pdfUrl2 =
   "https://cdn.builder.io/o/assets%2F451fa4d74a704a6a8d4625444abdc854%2F7b08ae11a1cc426eac35a9b05afb4841?alt=media&token=c6a3de2d-1f20-4f76-a214-ae54eaf13025&apiKey=451fa4d74a704a6a8d4625444abdc854";
 const pdfUrl3 =
   "https://cdn.builder.io/o/assets%2F451fa4d74a704a6a8d4625444abdc854%2Fa409e0b4740748de86d5452b86c34d4b?alt=media&token=5198213d-0960-4e47-af4e-117885252024&apiKey=451fa4d74a704a6a8d4625444abdc854";
+const authorizationUrl =
+  "https://cdn.builder.io/o/assets%2F451fa4d74a704a6a8d4625444abdc854%2Fb3dc4876b0614519b689c94619c3aa26?alt=media&token=c15e5e88-bd09-4c80-9cb5-52d9e5e56a4a&apiKey=451fa4d74a704a6a8d4625444abdc854";
 
 const renderContent = (item: (typeof faqData)[0]) => {
   if (item.id === "2") {
