@@ -154,6 +154,24 @@ const renderContent = (item: (typeof faqData)[0]) => {
       </div>
     );
   }
+  if (item.id === "4") {
+    return (
+      <div className="flex flex-col gap-4">
+        <p className="text-slate-700">{item.answer}</p>
+        <p className="text-slate-700">
+          Para falar com o Shonenkai sobre dúvidas relacionadas ao transporte, falar com Edison Santos - (11) 99151-3298
+        </p>
+        <a
+          href={authorizationUrl}
+          download
+          className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white hover:bg-slate-800 transition-colors"
+        >
+          <Download size={18} />
+          Modelo Autorização de Viagem
+        </a>
+      </div>
+    );
+  }
   if (item.id === "5") {
     return (
       <div className="flex flex-col gap-3">
